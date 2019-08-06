@@ -1,0 +1,392 @@
+[
+  {
+    "id": 31,
+    "color": "white",
+    "authors": [{ "name": "Jordan Peterson", "id": 7 }],
+    "title": "12 Rules for Life: An Antidote to Chaos",
+    "available": true
+  },
+  {
+    "id": 9,
+    "color": "yellow",
+    "authors": [{ "name": "George R.R. Martin", "id": 2 }],
+    "title": "A Clash of Kings",
+    "available": true
+  },
+  {
+    "id": 12,
+    "color": "white",
+    "authors": [{ "name": "George R.R. Martin", "id": 2 }],
+    "title": "A Dance With Dragons",
+    "available": true
+  },
+  {
+    "id": 11,
+    "color": "red",
+    "authors": [{ "name": "George R.R. Martin", "id": 2 }],
+    "title": "A Feast for Crows",
+    "available": true
+  },
+  {
+    "id": 8,
+    "color": "blue",
+    "authors": [{ "name": "George R.R. Martin", "id": 2 }],
+    "title": "A Game of Thrones",
+    "available": true
+  },
+  {
+    "id": 10,
+    "color": "green",
+    "authors": [{ "name": "George R.R. Martin", "id": 2 }],
+    "title": "A Storm of Swords",
+    "available": true
+  },
+  {
+    "id": 35,
+    "color": "white",
+    "authors": [{ "name": "Oliver Sachs", "id": 8 }],
+    "title": "Awakenings",
+    "available": true
+  },
+  {
+    "id": 48,
+    "color": "purple",
+    "authors": [{ "name": "Neil Gaiman", "id": 15 }],
+    "title": "Coraline",
+    "available": true
+  },
+  {
+    "id": 30,
+    "color": "yellow",
+    "authors": [{ "name": "Agatha Christie", "id": 6 }],
+    "title": "Curtain: Poirot's Last Case",
+    "available": true
+  },
+  {
+    "id": 27,
+    "color": "green",
+    "authors": [{ "name": "Agatha Christie", "id": 6 }],
+    "title": "Death on the Nile",
+    "available": true
+  },
+  {
+    "id": 38,
+    "color": "white",
+    "authors": [{ "name": "Rainbow Rowell", "id": 10 }],
+    "title": "Eleanor and Park",
+    "available": true
+  },
+  {
+    "id": 39,
+    "color": "green",
+    "authors": [{ "name": "Rainbow Rowell", "id": 10 }],
+    "title": "Fangirl",
+    "available": true
+  },
+  {
+    "id": 46,
+    "color": "black",
+    "authors": [
+      { "name": "Neil Gaiman", "id": 15 },
+      { "name": "Terry Pratchett", "id": 14 }
+    ],
+    "title": "Good Omens",
+    "available": true
+  },
+  {
+    "id": 2,
+    "color": "blue",
+    "authors": [{ "name": "J.K. Rowling", "id": 1 }],
+    "title": "Harry Potter and the Chamber of Secrets",
+    "available": true
+  },
+  {
+    "id": 7,
+    "color": "black",
+    "authors": [{ "name": "J.K. Rowling", "id": 1 }],
+    "title": "Harry Potter and the Deathly Hallows",
+    "available": true
+  },
+  {
+    "id": 4,
+    "color": "red",
+    "authors": [{ "name": "J.K. Rowling", "id": 1 }],
+    "title": "Harry Potter and the Goblet of Fire",
+    "available": true
+  },
+  {
+    "id": 6,
+    "color": "blue",
+    "authors": [{ "name": "J.K. Rowling", "id": 1 }],
+    "title": "Harry Potter and the Half-Blood Prince",
+    "available": true
+  },
+  {
+    "id": 5,
+    "color": "yellow",
+    "authors": [{ "name": "J.K. Rowling", "id": 1 }],
+    "title": "Harry Potter and the Order of the Phoenix",
+    "available": true
+  },
+  {
+    "id": 1,
+    "color": "red",
+    "authors": [{ "name": "J.K. Rowling", "id": 1 }],
+    "title": "Harry Potter and the Philosopher's Stone",
+    "available": true
+  },
+  {
+    "id": 3,
+    "color": "purple",
+    "authors": [{ "name": "J.K. Rowling", "id": 1 }],
+    "title": "Harry Potter and the Prizoner of Azkaban",
+    "available": true
+  },
+  {
+    "id": 41,
+    "color": "red",
+    "authors": [{ "name": "Charles Yu", "id": 12 }],
+    "title": "How to Live Safely in a Science Fictional Universe",
+    "available": true
+  },
+  {
+    "id": 40,
+    "color": "black",
+    "authors": [{ "name": "Charlotte Brontë", "id": 11 }],
+    "title": "Jane Eyre",
+    "available": true
+  },
+  {
+    "id": 20,
+    "color": "blue",
+    "authors": [{ "name": "Margaret Atwood", "id": 4 }],
+    "title": "MaddAddam",
+    "available": true
+  },
+  {
+    "id": 32,
+    "color": "white",
+    "authors": [{ "name": "Jordan Peterson", "id": 7 }],
+    "title": "Maps of Meaning: The Architecture of Belief",
+    "available": true
+  },
+  {
+    "id": 24,
+    "color": "grey",
+    "authors": [{ "name": "Naguib Mahfouz", "id": 5 }],
+    "title": "Miramar",
+    "available": true
+  },
+  {
+    "id": 26,
+    "color": "black",
+    "authors": [{ "name": "Agatha Christie", "id": 6 }],
+    "title": "Murder on the Orient Express",
+    "available": true
+  },
+  {
+    "id": 33,
+    "color": "blue",
+    "authors": [{ "name": "Oliver Sachs", "id": 8 }],
+    "title": "Musicophilia",
+    "available": true
+  },
+  {
+    "id": 47,
+    "color": "green",
+    "authors": [{ "name": "Neil Gaiman", "id": 15 }],
+    "title": "Neverwhere",
+    "available": true
+  },
+  {
+    "id": 18,
+    "color": "green",
+    "authors": [{ "name": "Margaret Atwood", "id": 4 }],
+    "title": "Oryx and Crake",
+    "available": true
+  },
+  {
+    "id": 22,
+    "color": "red",
+    "authors": [{ "name": "Naguib Mahfouz", "id": 5 }],
+    "title": "Palace Walk",
+    "available": true
+  },
+  {
+    "id": 25,
+    "color": "blue",
+    "authors": [{ "name": "Naguib Mahfouz", "id": 5 }],
+    "title": "Respected Sir",
+    "available": true
+  },
+  {
+    "id": 42,
+    "color": "white",
+    "authors": [{ "name": "Charles Yu", "id": 12 }],
+    "title": "Sorry Please Thank You",
+    "available": true
+  },
+  {
+    "id": 23,
+    "color": "blue",
+    "authors": [{ "name": "Naguib Mahfouz", "id": 5 }],
+    "title": "Sugar Street",
+    "available": true
+  },
+  {
+    "id": 49,
+    "color": "orange",
+    "authors": [{ "name": "Terry Pratchett", "id": 14 }],
+    "title": "The Color of Magic",
+    "available": true
+  },
+  {
+    "id": 14,
+    "color": "green",
+    "authors": [{ "name": "J.R.R Tolkein", "id": 3 }],
+    "title": "The Fellowship of the Ring",
+    "available": true
+  },
+  {
+    "id": 21,
+    "color": "red",
+    "authors": [{ "name": "Margaret Atwood", "id": 4 }],
+    "title": "The Handmaid's Tale",
+    "available": true
+  },
+  {
+    "id": 13,
+    "color": "black",
+    "authors": [{ "name": "J.R.R Tolkein", "id": 3 }],
+    "title": "The Hobbit",
+    "available": true
+  },
+  {
+    "id": 51,
+    "color": "yellow",
+    "authors": [{ "name": "Terry Pratchett", "id": 14 }],
+    "title": "The Hogfather",
+    "available": true
+  },
+  {
+    "id": 43,
+    "color": "black",
+    "authors": [{ "name": "Oscar Wilde", "id": 13 }],
+    "title": "The Importance of Being Earnest",
+    "available": true
+  },
+  {
+    "id": 29,
+    "color": "green",
+    "authors": [{ "name": "Agatha Christie", "id": 6 }],
+    "title": "The Man in the Brown Suit",
+    "available": true
+  },
+  {
+    "id": 34,
+    "color": "white",
+    "authors": [{ "name": "Oliver Sachs", "id": 8 }],
+    "title": "The Man Who Mistook His Wife for a Hat",
+    "available": true
+  },
+  {
+    "id": 28,
+    "color": "white",
+    "authors": [{ "name": "Agatha Christie", "id": 6 }],
+    "title": "The Mousetrap",
+    "available": true
+  },
+  {
+    "id": 44,
+    "color": "grey",
+    "authors": [{ "name": "Oscar Wilde", "id": 13 }],
+    "title": "The Picture of Dorian Gray",
+    "available": true
+  },
+  {
+    "id": 16,
+    "color": "blue",
+    "authors": [{ "name": "J.R.R Tolkein", "id": 3 }],
+    "title": "The Return of the King",
+    "available": true
+  },
+  {
+    "id": 45,
+    "color": "blue",
+    "authors": [{ "name": "Oscar Wilde", "id": 13 }],
+    "title": "The Selfish Giant",
+    "available": true
+  },
+  {
+    "id": 37,
+    "color": "red",
+    "authors": [{ "name": "Lauren Beukes", "id": 9 }],
+    "title": "The Shining Girls",
+    "available": true
+  },
+  {
+    "id": 17,
+    "color": "black",
+    "authors": [{ "name": "J.R.R Tolkein", "id": 3 }],
+    "title": "The Silmarillion",
+    "available": true
+  },
+  {
+    "id": 15,
+    "color": "red",
+    "authors": [{ "name": "J.R.R Tolkein", "id": 3 }],
+    "title": "The Two Towers",
+    "available": true
+  },
+  {
+    "id": 19,
+    "color": "green",
+    "authors": [{ "name": "Margaret Atwood", "id": 4 }],
+    "title": "The Year of the Flood",
+    "available": true
+  },
+  {
+    "id": 50,
+    "color": "blue",
+    "authors": [{ "name": "Terry Pratchett", "id": 14 }],
+    "title": "Wee Free Men",
+    "available": true
+  },
+  {
+    "id": 36,
+    "color": "white",
+    "authors": [{ "name": "Lauren Beukes", "id": 9 }],
+    "title": "Zoo City",
+    "available": true
+  },
+  {
+    "id": 53,
+    "color": "blue",
+    "authors": [
+      { "name": "Terry Pratchett", "id": 14 },
+      { "name": "Stephen Baxter", "id": 17 }
+    ],
+    "title": "The Long Earth",
+    "available": true
+  },
+  {
+    "id": 54,
+    "color": "green",
+    "authors": [
+      { "name": "Terry Pratchett", "id": 14 },
+      { "name": "Stephen Baxter", "id": 17 }
+    ],
+    "title": "The Long War",
+    "available": true
+  },
+  {
+    "id": 55,
+    "color": "red",
+    "authors": [
+      { "name": "Terry Pratchett", "id": 14 },
+      { "name": "Stephen Baxter", "id": 17 }
+    ],
+    "title": "The Long Mars",
+    "available": true
+  }
+]
