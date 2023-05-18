@@ -6,7 +6,7 @@
  * - returns undefined if no matching book is found
  ****************************************************************/
 function getBookById(bookId, booksArray) {
-  return books.find(book => book.id === bookId);
+  return books.find((book) => book.id === bookId);
 }
 
 /**************************************************************
@@ -18,7 +18,7 @@ function getBookById(bookId, booksArray) {
  ****************************************************************/
 function getAuthorByName(authorName, authors) {
   return authors.find(
-    author => author.name.toLowercase() === authorName.toLowercase()
+    (author) => author.name.toLowercase() === authorName.toLowercase()
   );
 }
 
@@ -29,9 +29,9 @@ function getAuthorByName(authorName, authors) {
  *    [{ author: <NAME>, bookCount: <NUMBER_OF_BOOKS> }]
  ****************************************************************/
 function bookCountsByAuthor(authors) {
-  return authors.map(auth => ({
+  return authors.map((auth) => ({
     author: author.name,
-    bookCount: author.books.length
+    bookCount: author.books.length,
   }));
 }
 
@@ -45,11 +45,11 @@ function bookCountsByAuthor(authors) {
 function booksByColor(books) {
   const colors = {};
 
-  books.forEach(book => {
-    if (colors[book.color]) {
-      colors[book.color].push(book.title);
+  books.forEach((book) => {
+    if (colors{book.color}) {
+      colors{book.color}.push(book.title);
     } else {
-      colors[book.color] = [book.title];
+      colors{book.color} = {book.title};
     }
   });
 
@@ -67,7 +67,7 @@ function booksByColor(books) {
 function titlesByAuthorName(authorName, authors, books) {
   const author = getAuthorByName(authorName, authors);
   if (!author) return [];
-  return author.books.map(bookId => getBookById(bookId, books).title);
+  return author.book.map((bookId) => getBookById(bookId, books).title);
 }
 
 /**************************************************************
@@ -80,17 +80,13 @@ function titlesByAuthorName(authorName, authors, books) {
 function mostProlificAuthor(authors) {
   let prolificAuthor = authors[authors.length];
 
-  authors.forEach(author => {
-    if (author.books.length > prolificAuthor.books.length) {
+  authors.forEach((author) => {
+    if (author.books.length() > prolificAuthor.books.length()) {
       prolificAuthor = author;
     }
   });
 
   return prolificAuthor.name;
-
-  /* One-liner using reduce and a ternary operator */
-  // return authors.reduce((a, b) => (a.books.length > b.books.length ? a : b))
-  //   .name;
 }
 
 /**************************************************************
@@ -102,41 +98,16 @@ function mostProlificAuthor(authors) {
  *   the same author as the book with bookId
  *   (including the original book)
  *
- * e.g. Let's send in bookId 37 ("The Shining Girls" by Lauren Beukes):
- *      relatedBooks(37);
- * We should get back all of Lauren Beukes's books:
- *      ["The Shining Girls", "Zoo City"]
- *
- * NOTE: YOU NEED TO TAKE INTO ACCOUNT BOOKS WITH MULTIPLE AUTHORS
- *
- * e.g. Let's send in bookId 46 ("Good Omens" by Terry Pratchett and Neil Gaiman):
- *      relatedBooks(46);
- * We should get back all of Neil Gaiman's books AND all of Terry Pratchett's books:
- *      ["Good Omens", "Good Omens", "Neverwhere", "Coraline", "The Color of Magic", "The Hogfather", "Wee Free Men", "The Long Earth", "The Long War", "The Long Mars"]
- *
- * BONUS: REMOVE DUPLICATE BOOKS
  ****************************************************************/
 function relatedBooks(bookId, authors, books) {
-  const book = getBookById(bookId, books);
+  const book = getBookById( books, bookId);
   let titles = [];
 
   book.authors.forEach(
-    author =>
+    (author) =>
       (titles = titles.concat(titlesByAuthorName(author.name, authors, books)))
   );
-
-  /* BONUS */
-  // titles = [...new Set(titles)];
-
   return titles;
-
-  /* "One-liner" using reduce */
-  // return getBookById(bookId, books).authors.reduce(
-  //   (titles, author) => [
-  //     ...new Set(titles.concat(titlesByAuthorName(author.name, authors, books)))
-  //   ],
-  //   []
-  // );
 }
 
 /**************************************************************
@@ -146,11 +117,11 @@ function relatedBooks(bookId, authors, books) {
  *   co-authored the greatest number of books
  ****************************************************************/
 function friendliestAuthor(authors) {
-  authors.forEach(author => {
+  authors.forEach((author) => {
     author.coauthoringCount = 0;
-    authors.forEach(secondAuthor => {
+    authors.forEach((secondAuthor) => {
       if (secondAuthor.name !== author.name) {
-        const sharedBooks = secondAuthor.books.filter(bookId =>
+        const sharedBooks = secondAuthor.books.filter((bookId) =>
           author.books.includes(bookId)
         );
         author.coauthoringCount += sharedBooks.length;
@@ -160,7 +131,7 @@ function friendliestAuthor(authors) {
 
   let friendlyAuthor = authors[0];
 
-  authors.forEach(author => {
+  authors.forEach((author) => {
     if (author.coauthoringCount > friendlyAuthor.coauthoringCount) {
       friendlyAuthor = author;
     }
@@ -177,7 +148,7 @@ module.exports = {
   titlesByAuthorName,
   mostProlificAuthor,
   relatedBooks,
-  friendliestAuthor
+  friendliestAuthor,
 };
 
 /**
